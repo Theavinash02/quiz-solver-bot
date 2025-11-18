@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+httpx
+playwright
+pandas
+matplotlib
+pdfplumber
+beautifulsoup4
+python-multipart
+openai

@@ -130,7 +130,7 @@ POST /quiz
 curl -X POST 'http://localhost:7860/quiz' \
   -H 'Content-Type: application/json' \
   -d '{
-    "email": "e25ds3000131@ds.study.iitm.ac.in",
+    "email": "25ds3000131@ds.study.iitm.ac.in",
     "secret": "####",
     "url": "https://tds-llm-analysis.s-anand.net/demo1"
   }'
@@ -178,11 +178,11 @@ curl -X POST 'http://localhost:7860/quiz' \
 # Audio + CSV puzzle chain
 curl -X POST 'http://localhost:7860/quiz' \
   -H 'Content-Type: application/json' \
-  -d '{"email":"e25ds3000131@ds.study.iitm.ac.in","secret":"Cute>3","url":"https://tds-llm-analysis.s-anand.net/demo"}'
+  -d '{"email":"25ds3000131@ds.study.iitm.ac.in","secret":"Cute>3","url":"https://tds-llm-analysis.s-anand.net/demo"}'
 # Checksum puzzle chain
 curl -X POST 'http://localhost:7860/quiz' \
   -H 'Content-Type: application/json' \
-  -d '{"email":"e25ds3000131@ds.study.iitm.ac.in","secret":"Cute>3","url":"https://tds-llm-analysis.s-anand.net/demo2"}'
+  -d '{"email":"25ds3000131@ds.study.iitm.ac.in","secret":"Cute>3","url":"https://tds-llm-analysis.s-anand.net/demo2"}'
 ```
 
 

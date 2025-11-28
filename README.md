@@ -131,7 +131,7 @@ curl -X POST 'http://localhost:7860/quiz' \
   -H 'Content-Type: application/json' \
   -d '{
     "email": "e25ds3000131@ds.study.iitm.ac.in",
-    "secret": "Cute>3",
+    "secret": "####",
     "url": "https://tds-llm-analysis.s-anand.net/demo1"
   }'
 ```
@@ -175,20 +175,14 @@ curl -X POST 'http://localhost:7860/quiz' \
 ### Test Individual Quiz Types
 
 ```bash
-# Simple numeric puzzle
-curl -X POST 'http://localhost:7860/quiz' \
-  -H 'Content-Type: application/json' \
-  -d '{"email":"e25ds3000131@ds.study.iitm.ac.in","secret":"Cute>3","url":"https://tds-llm-analysis.s-anand.net/demo1"}'
-
-# Checksum puzzle chain
-curl -X POST 'http://localhost:7860/quiz' \
-  -H 'Content-Type: application/json' \
-  -d '{"email":"e25ds3000131@ds.study.iitm.ac.in","secret":"Cute>3","url":"https://tds-llm-analysis.s-anand.net/demo2"}'
-
 # Audio + CSV puzzle chain
 curl -X POST 'http://localhost:7860/quiz' \
   -H 'Content-Type: application/json' \
   -d '{"email":"e25ds3000131@ds.study.iitm.ac.in","secret":"Cute>3","url":"https://tds-llm-analysis.s-anand.net/demo"}'
+# Checksum puzzle chain
+curl -X POST 'http://localhost:7860/quiz' \
+  -H 'Content-Type: application/json' \
+  -d '{"email":"e25ds3000131@ds.study.iitm.ac.in","secret":"Cute>3","url":"https://tds-llm-analysis.s-anand.net/demo2"}'
 ```
 
 ### Run Test Suite (Optional)

@@ -109,7 +109,7 @@ POST /quiz
 
 ```json
 {
-  "email": "your-email@example.com",
+  "email": "25ds3000131@ds.study.iitm.ac.in",
   "secret": "your-secret-key",
   "url": "https://tds-llm-analysis.s-anand.net/demo"
 }
@@ -130,7 +130,7 @@ POST /quiz
 curl -X POST 'http://localhost:7860/quiz' \
   -H 'Content-Type: application/json' \
   -d '{
-    "email": "example@exm.com",
+    "email": "e25ds3000131@ds.study.iitm.ac.in",
     "secret": "Cute>3",
     "url": "https://tds-llm-analysis.s-anand.net/demo1"
   }'
@@ -178,17 +178,17 @@ curl -X POST 'http://localhost:7860/quiz' \
 # Simple numeric puzzle
 curl -X POST 'http://localhost:7860/quiz' \
   -H 'Content-Type: application/json' \
-  -d '{"email":"example@exm.com","secret":"Cute>3","url":"https://tds-llm-analysis.s-anand.net/demo1"}'
+  -d '{"email":"e25ds3000131@ds.study.iitm.ac.in","secret":"Cute>3","url":"https://tds-llm-analysis.s-anand.net/demo1"}'
 
 # Checksum puzzle chain
 curl -X POST 'http://localhost:7860/quiz' \
   -H 'Content-Type: application/json' \
-  -d '{"email":"example@exm.com","secret":"Cute>3","url":"https://tds-llm-analysis.s-anand.net/demo2"}'
+  -d '{"email":"e25ds3000131@ds.study.iitm.ac.in","secret":"Cute>3","url":"https://tds-llm-analysis.s-anand.net/demo2"}'
 
 # Audio + CSV puzzle chain
 curl -X POST 'http://localhost:7860/quiz' \
   -H 'Content-Type: application/json' \
-  -d '{"email":"example@exm.com","secret":"Cute>3","url":"https://tds-llm-analysis.s-anand.net/demo"}'
+  -d '{"email":"e25ds3000131@ds.study.iitm.ac.in","secret":"Cute>3","url":"https://tds-llm-analysis.s-anand.net/demo"}'
 ```
 
 ### Run Test Suite (Optional)

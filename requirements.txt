@@ -1,10 +1,23 @@
-fastapi
-uvicorn[standard]
-httpx
-playwright
-pandas
-matplotlib
-pdfplumber
-beautifulsoup4
-python-multipart
-openai
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+httpx==0.25.1
+beautifulsoup4==4.12.2
+selenium==4.15.2
+openai==1.12.0
+pandas==2.2.3
+numpy==1.26.2
+matplotlib==3.8.2
+seaborn==0.13.0
+PyPDF2==3.0.1
+pydantic==2.5.0
+python-multipart==0.0.6
+# webdriver-manager is kept for Selenium helper
+webdriver-manager==4.0.1
+# Note: `openai-whisper` is heavy and increases build time (~5-10 min) but required for audio quizzes
+openai-whisper
+# Note: ffmpeg is a system package and should NOT be listed here. The provided Dockerfile installs ffmpeg.
+# Network analysis
+networkx==3.2.1
+# Scientific computing / ML
+scipy==1.11.4
+scikit-learn==1.3.2

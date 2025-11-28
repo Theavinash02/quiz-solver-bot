@@ -1,0 +1,3 @@
+curl -v -X POST 'https://theavinash02-quiz-solver-bot.hf.space/quiz' \
+  -H 'Content-Type: application/json' \
+  -d '{"email":"25ds3000131@ds.study.iitm.ac.in","secret":"#######","url":"https://tds-llm-analysis.s-anand.net/demo"}'

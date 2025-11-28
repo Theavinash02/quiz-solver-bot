@@ -285,4 +285,4 @@ For issues or questions:
 
 ---
 
-**Note**: This project is educational and designed for the TDS LLM Analysis course. Ensure you comply with the course's academic integrity policies when using this tool.
+**Note**: This project is educational and designed for the TDS LLM Analysis course in IIT Madras. Ensure you comply with the course's academic integrity policies when using this tool.

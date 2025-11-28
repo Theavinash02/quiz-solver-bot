@@ -282,7 +282,6 @@ Built for the TDS LLM Analysis project
 
 For issues or questions:
 - Open an issue on GitHub
-- Contact: [Your contact info]
 
 ---
 

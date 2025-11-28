@@ -185,13 +185,6 @@ curl -X POST 'http://localhost:7860/quiz' \
   -d '{"email":"e25ds3000131@ds.study.iitm.ac.in","secret":"Cute>3","url":"https://tds-llm-analysis.s-anand.net/demo2"}'
 ```
 
-### Run Test Suite (Optional)
-
-```bash
-# Note: Test files are for development only
-python test_checksum_fix.py
-python test_dynamic_extraction.py
-```
 
 ## 📦 Project Structure
 
@@ -202,10 +195,7 @@ tds-quiz-solver/
 ├── requirements.txt        # Python dependencies
 ├── Dockerfile             # Container configuration
 ├── README.md              # This file
-├── test_*.py              # Test files (optional)
-└── docs/                  # Additional documentation
-    ├── CHECKSUM_FIX_SUMMARY.md
-    └── DYNAMIC_EXTRACTION.md
+
 ```
 
 ## ⚙️ Configuration
@@ -235,7 +225,7 @@ demo2 → (key: 89252688) → demo2-checksum → (answer: c61387a1fab6)
 4. Add `OPENAI_API_KEY` in Space Settings → Repository secrets
 5. Space auto-builds and deploys
 
-**Live Demo**: https://berestly-quiz.hf.space/quiz
+**Live Demo**: https://spacename.hf.space/quiz
 
 ### Option 2: Render.com
 

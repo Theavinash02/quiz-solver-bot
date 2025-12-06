@@ -1,9 +1,0 @@
-__pycache__/
-.env
-.pytest_cache/
-*.py[cod]
-*.egg-info/
-.venv/
-venv/
-# Whisper model cache
-.cache/whisper/

@@ -30,7 +30,7 @@ def healthz():
         "uptime_seconds": int(time.time() - START_TIME)
     }
 
-@app.post("/solve")
+@app.post("/quiz")
 async def solve(request: Request, background_tasks: BackgroundTasks):
     try:
         data = await request.json()

@@ -1,4 +1,4 @@
-# LLM Analysis Quiz Bot 🤖
+# LLM Analysis Quiz Bot
 
 ## Overview
 

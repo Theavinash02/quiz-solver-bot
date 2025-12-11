@@ -78,7 +78,7 @@ curl -v -X POST "http://localhost:7860/quiz" \
 ```
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Theavinash02/quiz-solver-bot?tab=MIT-1-ov-file) file for details.
 
 **Note:** This bot is designed for educational purposes to demonstrate the capabilities of LLM agents in automating complex data science workflows.
 
